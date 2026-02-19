@@ -19,6 +19,7 @@ final class ParameterTypeMap
         ParameterType::BINARY => PDO::PARAM_LOB,
         ParameterType::LARGE_OBJECT => PDO::PARAM_LOB,
         ParameterType::BOOLEAN => PDO::PARAM_BOOL,
+	ParameterType::STRING_NATL => PDO::PARAM_STR_NATL,
     ];
 
     /**

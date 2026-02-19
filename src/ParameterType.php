@@ -47,6 +47,11 @@ final class ParameterType
     public const ASCII = 17;
 
     /**
+     * Represents the SQL NCHAR, NVARCHAR, or other UTF-16 string data type.
+     */
+    public const STRING_NATL = \PDO::PARAM_STR_NATL;
+
+    /**
      * This class cannot be instantiated.
      *
      * @codeCoverageIgnore
