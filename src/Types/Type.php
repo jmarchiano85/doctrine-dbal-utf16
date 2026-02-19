@@ -46,6 +46,7 @@ abstract class Type
         Types::TEXT                 => TextType::class,
         Types::TIME_MUTABLE         => TimeType::class,
         Types::TIME_IMMUTABLE       => TimeImmutableType::class,
+	Types::STRING_NATL          => StringNatlType::class,
     ];
 
     private static ?TypeRegistry $typeRegistry = null;
